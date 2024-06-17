@@ -1,0 +1,619 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  /* ! Header Section Start */
+  header {
+    width: 100%;
+    padding: 15px 0px;
+  }
+  nav {
+    max-width: 100%;
+  }
+  .nav-left {
+    flex-basis: 50%;
+  }
+  .nav-left img {
+    width: 80px;
+  }
+  .nav-left > ul {
+    display: none;
+  }
+  .nav-right {
+    flex-basis: 45%;
+  }
+  .nav-right > .call-btn {
+    display: none;
+  }
+  .nav-right > .header-btn {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  /* ! Header Section End */
+  /* ! Hero Section Start */
+  .main-hero > .hero-mobile {
+    display: block;
+  }
+  .main-hero > .hero-scaled {
+    display: none;
+  }
+  /* ! Hero Section End */
+  /* ! Hero CLAT Section Start */
+  .mid-hero--clat {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .hero-clat--left > h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .hero-column--container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .hero-column--items {
+    flex-basis: 100%;
+  }
+  /* ! Hero CLAT Section End */
+  /* ! Coaching Programs Section Start */
+  .mid-coaching--program {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .coaching-programs--container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* ! Coaching Programs Section End */
+  /* ! Scholarship Test Section Start */
+  .mid-scholar--test {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .mid-scholar--test > img {
+    width: 100%;
+  }
+  .scholar-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .mid-scholar--test > .scholar-content > h1 {
+    font-size: 50px;
+    line-height: 50px;
+    top: 40px;
+    left: 0px;
+  }
+  /* ! Scholarship Test Section End */
+  /* ! Preparation Resources Section Start */
+  .mid-preparation--resources {
+    max-width: 100%;
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .preparation-rows > h2 {
+    font-size: 24px;
+  }
+  .resourses-btn {
+    display: none;
+  }
+  .preparation-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .prepration-content {
+    padding: 20px;
+    text-align: start;
+  }
+  .prepration-row {
+    flex-direction: column;
+  }
+  .mock-test {
+    text-align: center;
+  }
+  .prepration-content > h3 {
+    margin: 10px 0px;
+  }
+  /* ! Preparation Resources Section End */
+  /* ! Choose Us Section Start */
+  .mid-choose--us {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .choose-us--left {
+    flex-basis: 100%;
+    padding: 100px 20px;
+  }
+  .choose-us--left > h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .choose-us--right {
+    flex-basis: 100%;
+  }
+  .choose-right--items {
+    flex-basis: 100%;
+  }
+  .choose-content {
+    padding: 20px 10px;
+    font-size: 18px;
+  }
+  /* ! Choose Us Section End */
+  /* ! CLAT 2024 Toppers Section Start */
+  .mid-2024--toppers {
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .toppers-2024--left {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .left-2024--container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left-2024-items {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  .toppers-2024--right {
+    flex-basis: 100%;
+    gap: 20px;
+  }
+  .toppers-items {
+    flex-basis: 100%;
+  }
+  /* ! CLAT 2024 Toppers Section End */
+  /* ! Testimonials Section Start */
+  .mid-testimonials {
+    max-width: 100%;
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .mid-testimonials--container {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .testimonials-left {
+    flex-basis: 100%;
+  }
+  .testimonials-right {
+    flex-basis: 100%;
+    flex-direction: column;
+    margin-right: 0px;
+    gap: 20px;
+  }
+  .testimonials-right--items {
+    flex-direction: column;
+  }
+  .testimonials-right--content {
+    padding: 20px;
+  }
+  /* ! Testimonials Section End */
+  /* ! Reviews Section Start */
+  .mid-reviews {
+    max-width: 100%;
+    padding: 0px 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .reviews-items {
+    flex-basis: 100%;
+  }
+  /* ! Reviews Section End */
+  /* ! Newspaper Section Start */
+  .main-newspaper {
+    height: 750px;
+    background-size: cover;
+  }
+  .mid-newspaper {
+    max-width: 100%;
+  }
+  .newspaper-container {
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .newspaper-container > img {
+    max-width: 48%;
+  }
+  /* ! Newspaper Section End */
+  /* ! Latest Blog Section Start */
+  .mid-latest--blogs {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  /* ! Latest Blog Section End */
+  /* ! Councelling Section Start */
+  .mid-councelling {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .councelling-rows {
+    flex-direction: column;
+    text-align: center;
+  }
+  .mid-bg--councelling {
+    max-width: 100%;
+    background: url(/images/Book-Free-Counselling.webp) no-repeat;
+    background-size: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0px 20px;
+  }
+  .mid-bg--councelling > form {
+    width: 100%;
+    padding: 30px;
+    margin-right: 0px;
+  }
+  .mid-councelling--text {
+    padding: 20px;
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+  }
+  /* ! Councelling Section End */
+  /* ! Events Section Start */
+  .mid-events {
+    max-width: 100%;
+    padding: 0px 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .events-items {
+    flex-basis: 100%;
+  }
+  .events-content > h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .events-content > p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+  }
+  .events-items-2 {
+    flex-basis: 100%;
+  }
+  .events-items-2 > img {
+    width: 50%;
+  }
+  /* ! Events Section End */
+  /* ! Free Resources Section Start */
+  .mid-free--resources {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .free-resources--container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .free-resources--items {
+    flex-basis: 100%;
+  }
+  .free-circle--img {
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+  }
+  /* ! Free Resources Section End */
+  /* ! Main Telegram Section Start */
+  .main-telegram {
+    padding: 0px 20px 50px 20px;
+  }
+  .telegram-scaled {
+    display: none;
+  }
+  .telegram-m {
+    display: block;
+  }
+  /* ! Main Telegram Section End */
+  /* ! Footer Section Start */
+  .mid-footer {
+    max-width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-column {
+    flex-basis: 100%;
+  }
+  .mid-footer-2 {
+    max-width: 100%;
+  }
+  .mid-footer-2 > p {
+    padding: 5px 0px;
+  }
+  /* ! Footer Section End */
+  /* ! Position Bottom Buttons Start */
+  .bottom-btn--box {
+    width: 100%;
+    bottom: 0;
+    display: block;
+  }
+  /* ! Position Bottom Buttons End */
+
+  /* * toppers.html Start */
+  /* ! Hall of Fame Section Start */
+  .mid-hall-fame {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .fame-year--container {
+    max-width: 80%;
+  }
+  .fame-btn {
+    margin-right: 10px;
+  }
+  .fame-toppers-items {
+    flex-basis: 47%;
+  }
+  /* ! Hall of Fame Section End */
+  /* ! Next Topper Section Start */
+  .mid-next--toppers {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .next-toppers--container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .next-toppers--items {
+    flex-basis: 100%;
+  }
+  /* ! Next Topper Section End */
+  /* ! FAQs Section Start */
+  .mid-faq {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .mid-faq > ul > li {
+    padding: 10px;
+    font-size: 16px;
+    text-align: start;
+  }
+  /* ! FAQs Section End */
+  /* * toppers.html End */
+
+  /* * councelling.html Start */
+  /* ! Councelling Hero Section Start */
+  .main-hero--councelling {
+    background: url(/images/Rectangle-930-1.webp) no-repeat top center;
+  }
+  .mid-hero--councelling {
+    max-width: 100%;
+    padding: 0px 20px;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .councelling-left {
+    flex-basis: 100%;
+  }
+  .councelling-left > h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .councelling-left > p {
+    font-size: 15px;
+    line-height: 23px;
+    color: var(--white-color);
+    margin-bottom: 50px;
+  }
+  .councelling-left > ul,
+  .about-left > ul {
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* ! Councelling Hero Section Start */
+  /* ! Our Toppers Section Start */
+  .mid-our--toppers {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .our-toppers--container > .left-2024-items {
+    flex-basis: 100%;
+  }
+  /* ! Our Toppers Section End */
+  /* ! Crack CLAT Section Start */
+  .main-crack--clat {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .mid-crack--clat {
+    max-width: 100%;
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .crack-clat--left {
+    display: none;
+  }
+  .crack-clat--right {
+    flex-basis: 100%;
+    text-align: start;
+  }
+  .crack-clat--right > h2 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .points-box {
+    flex-direction: column;
+  }
+  /* ! Crack CLAT Section End */
+  /* ! Position Councelling Button Start */
+  .position-btn {
+    width: 100%;
+    background-color: gold;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+  }
+  /* ! Position Councelling Button End */
+  /* * councelling.html End */
+  /* * demoClass.html Start */
+  .mid-demo--class {
+    background: url(/images/Book-Demo-Class-1.webp) no-repeat top center;
+  }
+  .why-join--container {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .why-join--items {
+    flex-basis: 100%;
+  }
+  /* * demoClass.html End */
+  /* * scholarshipTest.html Start */
+  .mid-scholarship {
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .scholarship-left {
+    flex-basis: 100%;
+    background: url(/images/WEB_BANNER_PATNA-01-1-scaled.webp) no-repeat;
+    background-size: 100%;
+  }
+  .scholarship-right {
+    flex-basis: 100%;
+    padding-top: 60px;
+  }
+  /* ! Main About Section Start */
+  .mid-about {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .about-left {
+    max-width: 100%;
+  }
+  .mid-about > .about-left > h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .mid-about > .about-left > p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  /* ! Main About Section End */
+  /* ! Why Take Scholarship Test Start */
+  .mid-why-scholarship--test {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .why-scholarship--container {
+    flex-direction: column;
+  }
+  .why-scholarship--items {
+    flex-basis: 100%;
+  }
+  /* ! Why Take Scholarship Test End */
+  /* ! Scholarship Details Section Start */
+  .mid-scholarship--details {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .scholar-details--container {
+    flex-direction: column;
+  }
+  .scholar-details--leftItems {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .leftItems-box {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .leftItems-box-1 {
+    border-right: none;
+    border-bottom: 4px solid var(--label-red);
+  }
+  .leftItems-box-1::after {
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 15px solid var(--label-red);
+    border-bottom: 0;
+    left: 45%;
+    top: 100%;
+  }
+  .leftItems-box--row {
+    gap: 5px;
+  }
+  .leftItems-box--row > span {
+    font-size: 16px;
+  }
+  .leftItems-box > p {
+    display: none;
+  }
+  .scholar-details--rightItems {
+    flex-basis: 100%;
+    padding: 10px;
+    gap: 30px;
+  }
+  .rightItems-box {
+    flex-basis: 100%;
+  }
+  /* ! Scholarship Details Section End */
+  /* ! Path To Success Section Start */
+  .mid-path--success {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .path-bg--image {
+    /* height: 1000px; */
+    background: url(/images/mobile-roadmap-bg.png) no-repeat;
+    background-size: 100%;
+  }
+  .path-rows {
+    flex-direction: column;
+  }
+  .path-rows-3 {
+    align-items: end;
+    gap: 108px;
+    justify-content: space-between;
+  }
+  .success-rect--img > img {
+    width: 100%;
+  }
+  .path-rows > .circle-girl--img > img {
+    width: 150px;
+  }
+  .path-points--box {
+    padding: 30px;
+  }
+  /* ! Path To Success Section End */
+  /* ! Got Scholarship Section Start */
+  .main-got--scholar {
+    width: 100%;
+    background: url(/images/got-schlorship.webp) no-repeat top left;
+    background-size: cover;
+  }
+  .mid-got--scholar {
+    max-width: 100%;
+    padding: 60px 20px;
+  }
+  .mid-got--scholar > h2,
+  .mid-share--opportunity > h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  /* ! Got Scholarship Section End */
+  /* ! Share Opportunity Section Start */
+  .main-share--opportunity {
+    display: none;
+  }
+  /* ! Share Opportunity Section End */
+  /* ! Win Scholarship Section Start */
+  .main-win--scholarship {
+    background: url(/images/enroll-now-bg.webp) no-repeat top center;
+    background-size: cover;
+  }
+  /* ! Win Scholarship Section End */
+  /* * scholarshipTest.html End */
+}
