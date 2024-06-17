@@ -68,6 +68,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .nav-left > ul {
   display: flex;
@@ -82,6 +83,45 @@ nav {
 }
 .nav-left > ul > li > a:hover {
   color: var(--label-red);
+}
+.dropdown-menu{
+  background-color: var(--white-color);
+  position: absolute;
+  top: 50px;
+  width: 25%;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  transform: scaleY(0);
+  transform-origin: top;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+.dropdown-menu >li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  transition: 0.2s;
+}
+.dropdown-menu>li:hover{
+  background-color: var(--label-red);
+  color: var(--white-color);
+}
+.dropdown-menu li i{
+  font-size: 18px;
+  color: var(--label-red);
+}
+.dropdown-menu li:hover i{
+  color: var(--white-color);
+}
+#Our-Courses:hover .dropdown-menu , #Test-Series:hover .dropdown-menu{
+  transform: scaleY(1);
+  visibility: visible;
+  opacity: 1;
 }
 .nav-left img {
   width: 150px;
