@@ -792,7 +792,7 @@ h5 {
 .main-newspaper {
   width: 100%;
   height: 480px;
-  background: url(../images/newspaper.jpg) no-repeat;
+  background: url('../images/newspaper.jpg') no-repeat;
   background-size: 100%;
   display: flex;
 }
@@ -841,7 +841,7 @@ h5 {
   max-width: 1280px;
   margin: auto;
   height: 620px;
-  background: url(/images/Book-Free-Counselling.webp);
+  background: url('../images/Book-Free-Counselling.webp');
   background-size: cover;
   display: flex;
   align-items: center;
